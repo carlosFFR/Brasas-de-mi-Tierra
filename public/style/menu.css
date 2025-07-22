@@ -2,11 +2,11 @@
   width: 100%;
   height: 100vh;
   font-family: "Katler-Rough";
-  position: relative;
-  background-image: url(../public/image/escritorio\ 1.png);
+  background-image: url(../public/image/escritorio1.png);
   background-position: center;
   background-size:cover ;
   overflow: hidden;
+  z-index: 1;
 
 }
 .menu-button{

@@ -8,8 +8,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
- 
-
 }
 .mani__title {
   position: absolute;
@@ -32,11 +30,10 @@
   text-align: center;
   font-family: 2.5em;
 }
-.button{
+.button {
   margin-top: 20px;
   text-decoration: none;
 }
-
 
 /*----- fin del  header -- main ---- */
 
@@ -44,14 +41,15 @@
 
 .header__main img {
   position: absolute;
-  width: 300px;
 }
 .header__main-img-1 {
   left: 0;
   top: -3%;
+  width: 430px;
   animation: fadeInLeft 0.8s ease-out both;
 }
 .header__main-img-2 {
+  width: 430px;
   left: 8%;
   bottom: 17%;
   animation: fadeInLeft 0.8s ease-out both;
@@ -59,16 +57,17 @@
 }
 .header__main-img-3 {
   bottom: 17%;
-
+  width: 430px;
   animation: fadeBottom 0.8s ease-out both;
 }
 .header__main-img-4 {
-  min-width: 400px;
+  width: 500px;
   right: 0;
   top: -3%;
   animation: fadeInRight 0.8s ease-out both;
 }
 .header__main-img-5 {
+  width: 430px;
   right: 5%;
   bottom: 17%;
   animation: fadeInRight 0.8s ease-out both;
@@ -115,7 +114,7 @@
   justify-content: center;
   margin-top: 120px;
 }
-.frase img{
+.frase img {
   width: clamp(350px, 50%, 500px);
 }
 .frase h2 {
@@ -138,7 +137,6 @@
   gap: 50px;
   position: relative;
   margin-bottom: 80px;
-  
 }
 
 .menu .vector-1 {
@@ -176,7 +174,7 @@
 .aside__menu img:nth-child(2n) {
   margin-left: -80px;
 }
- 
+
 .aside__menu .aside__menu-text:nth-child(1) {
   text-align: end;
 }
@@ -502,12 +500,11 @@
 .content-text .historia-titulo h3 {
   text-align: start;
 }
-.header__main-movil{
+.header__main-movil {
   display: none;
 }
 @media only screen and (max-width: 600px) {
   .frase {
-   
     margin-top: 0;
   }
   .s_nosotros .historia {
@@ -520,185 +517,180 @@
   .header__main {
     display: none;
   }
-  
-.header__main-movil {
-  
-  display: block;
-  margin: auto;
-  width: clamp(300px, 80%, 800px);
-  min-height: 80%;
-  position: relative;
-  z-index: 40;
-}
-.header-slider {
-min-width: 100%;
-overflow-x: hidden;
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: start;
-align-items: center;
-}
 
-.slides {
-margin-top: 20px;
-width: 300%; /* Triple del ancho del contenedor para mostrar los 3 slides */
-align-self: self-start;
-display: flex;
+  .header__main-movil {
+    display: block;
+    margin: auto;
+    width: clamp(300px, 80%, 800px);
+    min-height: 80%;
+    position: relative;
+    z-index: 40;
+  }
+  .header-slider {
+    min-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
 
-transition: transform 0.5s ease;
-}
+  .slides {
+    margin-top: 20px;
+    width: 300%; /* Triple del ancho del contenedor para mostrar los 3 slides */
+    align-self: self-start;
+    display: flex;
 
-.slides-header {
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-}
+    transition: transform 0.5s ease;
+  }
 
-.slides-header img {
-width: 300px;
-}
-.slides h2 {
-display: block;
-text-align: center;
-width: 60%;
-font-size: 2.5rem;
-font-family: Katler-Rough;
-letter-spacing: 2px;
-color: #e68c07;
-}
+  .slides-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 
-.content-radio-buttons {
-margin-top: 20px;
-display: flex;
-justify-content: center;
-gap: 10px;
-}
+  .slides-header img {
+    width: 300px;
+  }
+  .slides h2 {
+    display: block;
+    text-align: center;
+    width: 60%;
+    font-size: 2.5rem;
+    font-family: Katler-Rough;
+    letter-spacing: 2px;
+    color: #e68c07;
+  }
 
-.radio-button {
-min-width: 15px;
-min-height: 15px;
-background-color: transparent;
-border: 1px solid #000;
-border-radius: 50%;
-cursor: pointer;
-}
+  .content-radio-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
 
-/* Estilos para mover el contenedor .slides dependiendo del slide seleccionado */
-#slide1:checked ~ .slides {
-transform: translateX(0%); /* Primer slide */
-}
+  .radio-button {
+    min-width: 15px;
+    min-height: 15px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 
-#slide2:checked ~ .slides {
-transform: translateX(-33.33%); /* Segundo slide */
-}
+  /* Estilos para mover el contenedor .slides dependiendo del slide seleccionado */
+  #slide1:checked ~ .slides {
+    transform: translateX(0%); /* Primer slide */
+  }
 
-#slide3:checked ~ .slides {
-transform: translateX(-66.66%); /* Tercer slide */
-}
+  #slide2:checked ~ .slides {
+    transform: translateX(-33.33%); /* Segundo slide */
+  }
 
-/* Cambia el color del punto de navegación seleccionado */
-input#slide1:checked ~ .content-radio-buttons label[for="slide1"],
-input#slide2:checked ~ .content-radio-buttons label[for="slide2"],
-input#slide3:checked ~ .content-radio-buttons label[for="slide3"] {
-background-color: #e68c07;
-}
-input[type="radio"] {
-  display: none;
-}
+  #slide3:checked ~ .slides {
+    transform: translateX(-66.66%); /* Tercer slide */
+  }
 
+  /* Cambia el color del punto de navegación seleccionado */
+  input#slide1:checked ~ .content-radio-buttons label[for="slide1"],
+  input#slide2:checked ~ .content-radio-buttons label[for="slide2"],
+  input#slide3:checked ~ .content-radio-buttons label[for="slide3"] {
+    background-color: #e68c07;
+  }
+  input[type="radio"] {
+    display: none;
+  }
 
-.menu{
-  align-items: center;
-}
-.aside__menu{
-padding: 0;
- width: 90%;
-}
-.aside__menu img{
-  width: 150px;
-}
+  .menu {
+    align-items: center;
+  }
+  .aside__menu {
+    padding: 0;
+    width: 90%;
+  }
+  .aside__menu img {
+    width: 150px;
+  }
 
-.aside__menu-text{ 
-  padding: 0;
-  width: 220px;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.aside__menu-text h3 {
-  padding: 0;
-  font-size: 1.8rem;
-}
-.aside__menu-text h3,a{
-  margin-right: -20px;
-}
-.aside__menu-text a{
-  margin-right: -30px;
-}
-.aside__menu-text span {
-  margin: 0;
-  display: block;
-  font-size: 1.2em;
-  margin-top: -15px;
-}
-.aside__menu-text p {
- display: none;
-}
-.plato-2 .aside__menu-text,
-.plate-4 .aside__menu-text{
-  margin-left: -80px;
-}
-.aside__menu img:nth-child(2n) {
-  margin-left: -60px;
-}
+  .aside__menu-text {
+    padding: 0;
+    width: 220px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aside__menu-text h3 {
+    padding: 0;
+    font-size: 1.8rem;
+  }
+  .aside__menu-text h3,
+  a {
+    margin-right: -20px;
+  }
+  .aside__menu-text a {
+    margin-right: -30px;
+  }
+  .aside__menu-text span {
+    margin: 0;
+    display: block;
+    font-size: 1.2em;
+    margin-top: -15px;
+  }
+  .aside__menu-text p {
+    display: none;
+  }
+  .plato-2 .aside__menu-text,
+  .plate-4 .aside__menu-text {
+    margin-left: -80px;
+  }
+  .aside__menu img:nth-child(2n) {
+    margin-left: -60px;
+  }
 
-.plato-2 span:nth-child(1) {
-  font-size: 1.24rem;
-  margin-top: -15px;
-}
-.plato-2 span:nth-child(2) {
-  font-size: 1.24rem;
-  letter-spacing: 4px;
-  margin-top: -17px;
-}
-.plato-2 h3{
-  margin-left: -35px;
-}
-.plato-2 a{
-  margin-left: -35px;
-}
+  .plato-2 span:nth-child(1) {
+    font-size: 1.24rem;
+    margin-top: -15px;
+  }
+  .plato-2 span:nth-child(2) {
+    font-size: 1.24rem;
+    letter-spacing: 4px;
+    margin-top: -17px;
+  }
+  .plato-2 h3 {
+    margin-left: -35px;
+  }
+  .plato-2 a {
+    margin-left: -35px;
+  }
 
-.plato-2 .hoja1,
-.plate-4 .hoja2{
-  display: none;
-}
-.plate-4 h3{
-  letter-spacing: 3px;
-}
-.plate-4 span{
-  margin-top: -15px;
-  font-size: 1.24rem;
-  margin-left: -10px;
-}
-.plate-4 a{
-  margin-left: -20px;
-}
-.plate3 h3{
-margin-right: -53px;
-}
+  .plato-2 .hoja1,
+  .plate-4 .hoja2 {
+    display: none;
+  }
+  .plate-4 h3 {
+    letter-spacing: 3px;
+  }
+  .plate-4 span {
+    margin-top: -15px;
+    font-size: 1.24rem;
+    margin-left: -10px;
+  }
+  .plate-4 a {
+    margin-left: -20px;
+  }
+  .plate3 h3 {
+    margin-right: -53px;
+  }
 }
 /* Pantallas medianas (tabletas) */
 
-
 /* Pantallas pequeñas (móviles) */
 
-
 /*----------fin Sobre Nosotros--------*/
-
-
