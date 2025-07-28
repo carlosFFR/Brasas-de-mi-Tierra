@@ -96,6 +96,7 @@ body {
 }
 .nmovil-items a {
   text-decoration: none;
+  font-family: Katler-Regular;
   color: #fff;
   font-size: 1.2rem;
 }
@@ -136,6 +137,8 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   font-size: clamp(1.2rem, 2vh, 2rem);
+  font-family: Katler-Regular;
+
 }
 .nav-items a:hover {
   color: #e68c07;
@@ -186,7 +189,7 @@ body {
   justify-content: space-around;
   align-items: center;
   position: relative;
-  background-image: url(../public/image/vector.png);
+  background-image: url("../image/vector.png");
   background-position: top;
   background-size: cover;
   z-index: 100;
@@ -266,7 +269,7 @@ body {
   letter-spacing: 1px;
   font-size: 0.6rem;
 }
-@media only screen and (max-width: 600px) {
+@media(width < 600px) {
   .header__nav{
     display: none;
   }
@@ -287,7 +290,7 @@ body {
   .footer {
     padding: 50px 0 50px 0;
     flex-direction: column;
-    background-image: url(../public/image/bg-movil.png);
+    background-image: url("../image/bg-movil.png");
     background-size: cover;
     gap: 20px;
     text-align: center;

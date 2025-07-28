@@ -10,3 +10,7 @@
   font-family: "KumbhSans-Regular";
   src: url(../fonts/KumbhSans-Regular.woff2) format("woff2");
 }
+@font-face {
+  font-family: "Katler-Regular";
+  src: url(../fonts/K-regular.woff2) format("woff2");
+}

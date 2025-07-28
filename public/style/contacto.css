@@ -26,7 +26,8 @@
 .titulo__header h3{
   margin-top: -10px;
   text-align: center;
-  font-family: katler-Rough;
+  font-family: Katler-Regular;
+
   font-size: 4rem;
   color: var(--color-button);
   letter-spacing: 5px;
@@ -81,7 +82,8 @@
   margin-bottom: 10px;
 }
 .text-content h3{
-  font-family: Katler-Rough;
+  font-family: Katler-Regular;
+
   font-size: 2rem;
   font-weight: 100;
 }
@@ -112,7 +114,8 @@
 .container__form h3{
   margin-top: 40px;
   color: #fefefe;
-  font-family: Katler-Rough;
+  font-family: Katler-Regular;
+
   font-size: 3rem;
   font-weight: 100;
   letter-spacing: 5px;

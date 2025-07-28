@@ -3,7 +3,7 @@
   height: 100vh;
   font-family: "Katler-Rough";
   position: relative;
-  background-image: url(../public/image/escritorio\ 2.png);
+  background-image: url("../image/hero-promociones.webp");
   background-position: center;
   background-size:cover ;
   overflow: hidden;
@@ -15,8 +15,6 @@
   padding: 5px 20px;
   left: 46%;
 
-  
- 
 }
 .pollo-entero{
   display: block;
@@ -46,7 +44,8 @@
   margin-top: 10px;
 }
 .text-promos h3{
-  font-family: Katler-Rough;
+  font-family: Katler-Regular;
+
   font-size: 2.4rem;
   text-align: center;
 }
@@ -122,7 +121,7 @@ flex-direction: column-reverse;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media (width < 600px) {
  .contenido__promos{
   padding: 0;
   flex-wrap: wrap;
