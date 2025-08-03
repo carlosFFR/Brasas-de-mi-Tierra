@@ -6,20 +6,29 @@
     <link rel="stylesheet" href="style/inicio.css" />
     <link rel="stylesheet" href="style/fonts.css" />
     <link rel="stylesheet" href="style/nav-fotter.css" />
+    <link rel="shortcut icon" href="logos/logo.webp" type="image/x-icon" />
     <link
-      rel="shortcut icon"
-      href="logos/logo.png"
-      type="image/x-icon"
+      rel="preload"
+      href="fonts/K-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
     />
-    <link rel="preload" href="fonts/K-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <title>Leña y Brasas</title>
     <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "sm1tjuruv9");
-</script>
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "sm1tjuruv9");
+    </script>
   </head>
   <body>
     <!-- <div class="bg-ruido">
@@ -28,67 +37,65 @@
 
     <header class="header">
       <!-- nav-movil -->
-    <nav class="header__nav-movil">
-      <a href="./index.html"
-        ><img
-          src="logos/logo.png"
-          alt="LOGO LEÑA-BRASAS"
-          class="icon-inicio"
-      /></a>
-      <div>
-        <img
-          src="logos/menu-movil.png"
-          alt="Icono de menú"
-          id="menu-movil"
-        />
-      </div>
-      <div class="capa"></div>
-      <ul class="nmovil-container hidden">
-        <li class="nmovil-items"><a href="menu.html">MENÚ</a></li>
-        <li class="nmovil-items"><a href="promociones.html">PROMOCIÓN</a></li>
-        <li class="nmovil-items"><a href="resevas.html">RESERVA</a></li>
-        <li class="nmovil-items"><a href="contacto.html">CONTACTO</a></li>
-      </ul>
-    </nav>
+      <nav class="header__nav-movil">
+        <a href="./index.html"
+          ><img
+            src="logos/logo.webp"
+            alt="LOGO LEÑA-BRASAS"
+            class="icon-inicio"
+        /></a>
+        <div>
+          <img src="logos/menu-movil.png" alt="Icono de menú" id="menu-movil" />
+        </div>
+        <div class="capa"></div>
+        <ul class="nmovil-container hidden">
+          <li class="nmovil-items"><a href="menu.html">MENÚ</a></li>
+          <li class="nmovil-items"><a href="promociones.html">PROMOCIÓN</a></li>
+          <li class="nmovil-items"><a href="resevas.html">RESERVA</a></li>
+          <li class="nmovil-items"><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
 
-    <!-- fin nav-movil -->
-    <nav class="header__nav">
-      <ul class="nav__container--items">
-        <li class="nav-items"><a href="menu.html">MENÚ</a></li>
-        <li class="nav-items"><a href="promociones.html">PROMOCIÓN</a></li>
-        <a href="./index.html"><img src="logos/logo.png" alt="LOGO LEÑA-BRASAS" /></a>
-        <li class="nav-items"><a href="resevas.html">RESERVA</a></li>
+      <!-- fin nav-movil -->
+      <nav class="header__nav">
+        <ul class="nav__container--items">
+          <li class="nav-items"><a href="menu.html">MENÚ</a></li>
+          <li class="nav-items"><a href="promociones.html">PROMOCIÓN</a></li>
+          <a href="./index.html"
+            ><img src="logos/logo.webp" alt="LOGO LEÑA-BRASAS"
+          /></a>
+          <li class="nav-items"><a href="resevas.html">RESERVA</a></li>
 
-        <li class="nav-items"><a href="contacto.html">CONTACTO</a></li>
-      </ul>
-    </nav>
+          <li class="nav-items"><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
 
       <main class="header__main-movil">
         <section class="header-slider">
           <!-- Radio buttons para el control del slider -->
-          <input type="radio" id="slide1" name="slider" checked>
-          <input type="radio" id="slide2" name="slider">
-          <input type="radio" id="slide3" name="slider">
-      
+          <input type="radio" id="slide1" name="slider" checked />
+          <input type="radio" id="slide2" name="slider" />
+          <input type="radio" id="slide3" name="slider" />
+
           <!-- Contenedor de slides -->
           <div class="slides" id="slides-container">
             <article class="slides-header">
-              <img src="image/fideoUchu.png" alt="FIDEOS UCHU">
+              <img src="image/platos/FideosUchu.webp" alt="FIDEOS UCHU" />
               <h2>FIDEOS UCHU</h2>
               <button class="button">VER MENU</button>
             </article>
             <article class="slides-header">
-              <img src="image/Costilla.png" alt="COSTILLA A LA BRASA">
+              <img src="image/platos/Costilla.webp" alt="COSTILLA A LA BRASA" />
               <h2>COSTILLA A LA BRASA</h2>
               <button class="button">VER MENU</button>
             </article>
             <article class="slides-header">
-              <img src="image/pollo.png" alt="POLLO A LA BRASA">
+              <img src="image/platos/pollo.webp" alt="POLLO A LA BRASA" />
               <h2>POLLO A LA BRASA</h2>
               <button class="button">VER MENU</button>
             </article>
           </div>
-      
+
           <!-- Radio buttons visibles como puntos de navegación -->
           <div class="content-radio-buttons">
             <label for="slide1" class="radio-button"></label>
@@ -97,8 +104,6 @@
           </div>
         </section>
       </main>
-      
-      
 
       <main class="header__main">
         <div class="mani__title">
@@ -109,27 +114,27 @@
 
         <img
           class="header__main-img-2"
-          src="image/Costilla.png"
+          src="image/platos/Costilla.webp"
           alt="Costillitas de Cerdo"
         />
         <img
           class="header__main-img-1"
-          src="image/fideoUchu.png"
+          src="image/platos/FideosUchu.webp"
           alt="Fideos Uchu"
         />
         <img
           class="header__main-img-4"
-          src="image/Planchita.png"
+          src="image/platos/Planchita.webp"
           alt="Planchita"
         />
         <img
           class="header__main-img-5"
-          src="image/pollo.png"
+          src="image/platos/pollo.webp"
           alt="Pollo a la Brasa"
         />
         <img
           class="header__main-img-3"
-          src="image/PolloBrasa.png"
+          src="image/platos/PolloBrasa.webp"
           alt="Pollo a la Brasa"
         />
       </main>
@@ -137,16 +142,15 @@
 
     <section class="frase">
       <h2>" EL AMOR SE TRANSMITE EN LA COMIDA "</h2>
-      <img src="image/cubiertos.png" alt="" />
+      <img src="image/decoraciones/cubiertos.webp" alt="cubiertos" />
     </section>
-    
 
     <aside class="menu">
-      <img src="image/m1.png" alt="vector fuego" class="vector-1" />
-      <img src="image/m2.png" alt="vector fuego" class="vector-2" />
-      <img src="image/m3.png" alt="vector fuego" class="vector-3" />
+      <img src="image/decoraciones/m1.webp" alt="vector fuego" class="vector-1" />
+      <img src="image/decoraciones/m2.webp" alt="vector fuego" class="vector-2" />
+      <img src="image/decoraciones/m3.webp" alt="vector fuego" class="vector-3" />
       <div class="aside__menu">
-        <img src="image/fideoUchu.png" alt="Fideos Uchi" />
+        <img src="image/platos/FideosUchu.webp" alt="Fideos Uchu" />
         <div class="aside__menu-text">
           <h3>FIDEOS <span>UCHU</span></h3>
           <p>
@@ -169,15 +173,15 @@
           <a href="./menu.html">VER MENU >></a>
         </div>
         <img
-          src="image/Costilla.png"
+          src="image/platos/Costilla.webp"
           alt="Costilla de Cerdo"
           class="costilla"
         />
-        <img src="image/h1.png" alt="Hoja" class="hoja1" />
+        <img src="image/decoraciones/h1.webp" alt="Hoja" class="hoja1" />
       </div>
 
       <div class="aside__menu plate-3">
-        <img src="image/Planchita.png" alt="Planchita" />
+        <img src="image/platos/Planchita.webp" alt="Planchita" />
         <div class="aside__menu-text plate3">
           <h3>PLANCHITA</h3>
           <p>
@@ -199,8 +203,8 @@
           <a href="./menu.html">VER MENU >></a>
         </div>
 
-        <img src="image/pollo.png" alt="Pollo a la Brasa"  class="pollo"/>
-        <img src="image/h1.png" alt="Hoja" class="hoja2" />
+        <img src="image/platos/pollo.webp" alt="Pollo a la Brasa" class="pollo" />
+        <img src="image/decoraciones/h1.webp" alt="Hoja" class="hoja2" />
       </div>
     </aside>
     <section class="container__guarniciones">
@@ -226,22 +230,19 @@
         <div class="slider__Guarniciones">
           <div class="slider-wrapper">
             <div class="slider">
-              <img
-                src="image/FideoFetuchini.png"
-                alt="Fideo Fetuchini"
-              />
+              <img src="image/platos/FideoFetuchini.webp" alt="Fideo Fetuchini" />
               <h4>FIDEO <span>FETUCHINI</span></h4>
             </div>
             <div class="slider">
-              <img src="image/papasCocidas.png" alt="Papas Cocidas" />
+              <img src="image/platos/papasCocidas.webp" alt="Papas Cocidas" />
               <h4>PAPAS <span>COCIDAS</span></h4>
             </div>
             <div class="slider">
-              <img src="image/papasFritas.png" alt="Papas Fritas" />
+              <img src="image/platos/papasFritas.webp" alt="Papas Fritas" />
               <h4>PAPAS <span>FRITAS</span></h4>
             </div>
             <div class="slider">
-              <img src="image/arroz.png" alt="Papas Fritas" />
+              <img src="image/platos/arroz.webp" alt="Papas Fritas" />
               <h4>ARROZ<span>PRIMAVERA</span></h4>
             </div>
           </div>
@@ -262,17 +263,13 @@
     <div class="s_nosotros">
       <article class="s_nosotros historia-2">
         <img
-          src="image/historia.png"
+          src="image/historia.webp"
           alt="img-historia"
           class="historia-img"
         />
         <div class="content-text">
           <div class="historia-titulo">
-            <img
-              src="image/fuego.svg"
-              alt="Vector Fuego"
-              class="fuego"
-            />
+            <img src="image/fuego.svg" alt="Vector Fuego" class="fuego" />
             <h3>HISTORIA</h3>
           </div>
 
@@ -291,8 +288,11 @@
           <img src="image/fuego.svg" alt="Vector Fuego" class="fuego" />
           <h3>HISTORIA</h3>
         </div>
-
-        <img src="image/Vector 13.png" alt="" />
+<img
+          src="image/historia.webp"
+          alt="img-historia"
+          class="historia-img"
+        />
         <p>
           Leña y brasas de mi tierra es una empresa creada el 28 de agosto del
           año 2019 por el Sr. Valerio Calle Fernandez y la Sra. Beatriz Colque
@@ -305,11 +305,7 @@
       <div class="content-mv">
         <article class="s_nosotros-mision">
           <div class="mision-titulo">
-            <img
-              src="image/fuego.svg"
-              alt="Vector Fuego"
-              class="fuego"
-            />
+            <img src="image/fuego.svg" alt="Vector Fuego" class="fuego" />
             <h3>MISIÓN</h3>
           </div>
           <p>
@@ -321,11 +317,7 @@
         <article class="s_nosotros-mision">
           <div class="mision-titulo vision">
             <h3>VISIÓN</h3>
-            <img
-              src="image/fuego.svg"
-              alt="Vector Fuego"
-              class="fuego"
-            />
+            <img src="image/fuego.svg" alt="Vector Fuego" class="fuego" />
           </div>
           <p>
             Crecer a nivel departamental, para llegar a loshogares de nuestros
@@ -342,7 +334,7 @@
       </div>
       <div class="content-valores">
         <article>
-          <h4>RESPOMNSABILIDAD</h4>
+          <h4>RESPONSABILIDAD</h4>
           <p>
             Los miembros de nuestro equipo de trabajo entienden la importancia
             de mantener la calidad y sabor de nuestro producto y se comprometen
@@ -378,16 +370,16 @@
       </section>
       <section class="redes">
         <div>
-          <img src="logos/fb.png" alt="Logo Faccebok" />
+          <img src="logos/fb.webp" alt="Logo Faccebok" />
         </div>
         <div>
-          <img src="logos/in.png" alt="Instagram" class="instagram" />
+          <img src="logos/in.webp" alt="Instagram" class="instagram" />
         </div>
-        <div><img src="logos/wp.png" alt="Whatsapp" /></div>
-  
-        <a href="./index.html"> <img src="logos/logo.png" alt="logo" /></a>
-  
-        <div><img src="logos/yt.png" alt="Youtube" /></div>
+        <div><img src="logos/wp.webp" alt="Whatsapp" /></div>
+
+        <a href="./index.html"> <img src="logos/logo.webp" alt="logo" /></a>
+
+        <div><img src="logos/yt.webp" alt="Youtube" /></div>
       </section>
       <section class="horarios">
         <h3>HORARIO DE ATENCION</h3>

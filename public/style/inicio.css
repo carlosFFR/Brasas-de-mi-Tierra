@@ -32,10 +32,6 @@
   text-align: center;
   font-family: 2.5em;
 }
-.button {
-  margin-top: 20px;
-  text-decoration: none;
-}
 
 /*----- fin del  header -- main ---- */
 
@@ -190,7 +186,7 @@
 }
 .aside__menu-text h3 {
   margin: 0;
-    font-family: Katler-Regular;
+  font-family: Katler-Regular;
 
   letter-spacing: 2px;
   line-height: 40px;
@@ -212,7 +208,7 @@
   letter-spacing: 1px;
 }
 .aside__menu a {
-    font-family: Katler-Regular;
+  font-family: Katler-Regular;
 
   text-decoration: none;
   color: var(--color-button);
@@ -340,7 +336,7 @@
 
 .slider h4 {
   color: #e7e4e4;
-    font-family: Katler-Regular;
+  font-family: Katler-Regular;
 
   font-size: clamp(1rem, 2vw, 1.5rem);
   font-weight: 200;
@@ -404,7 +400,7 @@
   gap: 20px;
 }
 .historia-titulo h3 {
-    font-family: Katler-Regular;
+  font-family: Katler-Regular;
 
   font-size: 3rem;
   text-align: center;
@@ -430,7 +426,7 @@
   font-weight: 100;
   margin-top: 5px;
   letter-spacing: 1px;
-  text-align: start;
+  text-align: center;
   color: #e7e4e4;
   font-weight: 100;
 }
@@ -450,7 +446,7 @@
   gap: 8px;
 }
 .mision-titulo h3 {
-    font-family: Katler-Regular;
+  font-family: Katler-Regular;
 
   font-size: 3rem;
   text-align: center;
@@ -466,8 +462,8 @@
   rotate: -360deg;
 }
 .s_nosotros h4 {
-    font-family: Katler-Regular;
-
+  font-family: Katler-Regular;
+  letter-spacing: 2px;
   font-size: 1.5rem;
   text-align: center;
   color: #e68c07;
@@ -489,6 +485,7 @@
   justify-content: space-around;
   gap: 30px;
 }
+
 .valores article {
   width: 200px;
 }
@@ -512,6 +509,14 @@
   display: none;
 }
 @media only screen and (max-width: 600px) {
+  .menu {
+    background-image: url("../image/bg-menu.png");
+    background-size: cover;
+    background-position: top center;
+    z-index: 30;
+    position: relative;
+    padding: 50px 0 50px 0;
+  }
   .frase {
     margin-top: 0;
   }
@@ -570,7 +575,7 @@
     text-align: center;
     width: 60%;
     font-size: 2.5rem;
-      font-family: Katler-Regular;
+    font-family: Katler-Regular;
 
     letter-spacing: 2px;
     color: #e68c07;
@@ -587,7 +592,7 @@
     min-width: 15px;
     min-height: 15px;
     background-color: transparent;
-    border: 1px solid #000;
+    border: px solid #fff;
     border-radius: 50%;
     cursor: pointer;
   }

@@ -552,7 +552,7 @@ scale: 1.1;
     height: 100vh;
     font-family: "Katler-Rough";
     position: relative;
-    background-image: url(../public/image/movil.png);
+    background-image: url("../image/hero/hero-menu-movil.webp");
     background-position: center;
     background-size:cover ;
     overflow: hidden;
