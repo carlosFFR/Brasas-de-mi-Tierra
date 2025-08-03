@@ -592,7 +592,7 @@
     min-width: 15px;
     min-height: 15px;
     background-color: transparent;
-    border: px solid #fff;
+    border: 3px solid #fff;
     border-radius: 50%;
     cursor: pointer;
   }
