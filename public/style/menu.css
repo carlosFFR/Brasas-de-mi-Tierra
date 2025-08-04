@@ -43,6 +43,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 .vector-4 {
   display: none;
@@ -219,6 +220,7 @@ width:250px;
   align-items: center;
   justify-content: center;
   position:relative;
+  overflow: hidden;
 }
 .conainer__cortes .vector-3{
 top:25%;
@@ -272,6 +274,7 @@ z-index:-1;
   z-index: 10;
 }
 .cortes_contenido {
+  overflow: hidden;
   backdrop-filter: blur(10px);
   margin-top: -150px;
   border: 2px solid #fefefe;
