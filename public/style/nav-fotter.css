@@ -222,7 +222,7 @@ input[type="radio"]{
   justify-content: space-around;
   align-items: center;
   position: relative;
-  background-image: url("../image/vector.png");
+  background-image: url("../image/hero/bg-footer.webp");
   background-position: top;
   background-size: cover;
   z-index: 100;
@@ -316,7 +316,7 @@ input[type="radio"]{
   .footer {
     padding: 50px 0 50px 0;
     flex-direction: column;
-    background-image: url("../image/bg-movil.png");
+    background-image: url("../image/hero/bg-footer-movil.webp");
     background-size: cover;
     gap: 20px;
     text-align: center;
