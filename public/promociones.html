@@ -4,129 +4,154 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promociónes</title>
+    <link rel="shortcut icon" href="logos/logo.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/nav-fotter.css" />
+    <link rel="stylesheet" href="./style/promociones.css" />
+    <link rel="stylesheet" href="./style/fonts.css" />
     <link
-    rel="shortcut icon"
-    href="logos/logo.png"
-    type="image/x-icon"
-  />
-    <link rel="stylesheet" href="style/nav-fotter.css" />
-    <link rel="stylesheet" href="style/promociones.css" />
-    <link rel="stylesheet" href="style/fonts.css" />
-    <link rel="preload" href="fonts/K-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+      rel="preload"
+      href="fonts/Katler-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header class="header">
-       <!-- nav-movil -->
-    <nav class="header__nav-movil">
-      <a href="./index.html"
-        ><img
-          src="logos/logo.png"
-          alt="LOGO LEÑA-BRASAS"
-          class="icon-inicio"
+      <!-- nav-movil -->
+      <nav class="header__nav-movil">
+        <a href="./index.html"
+          ><img
+            src="logos/logo.webp"
+            alt="LOGO LEÑA-BRASAS"
+            class="icon-inicio"
+        /></a>
+        <div>
+          <img src="logos/menu-movil.png" alt="Icono de menú" id="menu-movil" />
+        </div>
+        <div class="capa"></div>
+        <ul class="nmovil-container hidden">
+          <li class="nmovil-items"><a href="./menu.html">MENÚ</a></li>
+          <li class="nmovil-items">
+            <a href="./promociones.html">PROMOCIÓN</a>
+          </li>
+          <li class="nmovil-items"><a href="./resevas.html">RESERVA</a></li>
+          <li class="nmovil-items"><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+
+      <!-- fin nav-movil -->
+      <nav class="header__nav">
+        <ul class="nav__container--items">
+          <li class="nav-items"><a href="./menu.html">MENÚ</a></li>
+          <li class="nav-items"><a href="./promociones.html">PROMOCIÓN</a></li>
+          <a href="./index.html"
+            ><img src="logos/logo.webp" alt="LOGO LEÑA-BRASAS"
+          /></a>
+          <li class="nav-items"><a href="./resevas.html">RESERVA</a></li>
+
+          <li class="nav-items"><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <a href="https://wa.me/59167344906" class="button menu-button button-prom"
+        >PEDIR POR <img src="logos/wp.webp" alt="Whatsapp"
       /></a>
-      <div>
-        <img
-          src="logos/menu-movil.png"
-          alt="Icono de menú"
-          id="menu-movil"
-        />
-      </div>
-      <div class="capa"></div>
-      <ul class="nmovil-container hidden">
-        <li class="nmovil-items"><a href="./menu.html">MENÚ</a></li>
-        <li class="nmovil-items"><a href="./promociones.html">PROMOCIÓN</a></li>
-        <li class="nmovil-items"><a href="./resevas.html">RESERVA</a></li>
-        <li class="nmovil-items"><a href="./contacto.html">CONTACTO</a></li>
-      </ul>
-    </nav>
-
-    <!-- fin nav-movil -->
-    <nav class="header__nav">
-      <ul class="nav__container--items">
-        <li class="nav-items"><a href="./menu.html">MENÚ</a></li>
-        <li class="nav-items"><a href="./promociones.html">PROMOCIÓN</a></li>
-        <a href="./index.html"><img src="logos/logo.png" alt="LOGO LEÑA-BRASAS" /></a>
-        <li class="nav-items"><a href="./resevas.html">RESERVA</a></li>
-
-        <li class="nav-items"><a href="./contacto.html">CONTACTO</a></li>
-      </ul>
-    </nav>
-    <a href="https://wa.me/59167344906
-    " class="button menu-button button-prom">PEDIR POR <img src="logos/wp.png" alt="Whatsapp" ></a>
     </header>
 
     <main class="container__promociones">
+       <img src="./image/decoraciones/m5.webp" alt="vector-5" class="vector-5">
+         <img src="./image/decoraciones/m1.webp" alt="vector-1" class="vector-1">
       <section class="contenido__promos">
         <div class="text-promos">
-          <h3><span>1/4</span><span>POLLO</span><span>BRASA</span></h3>
+          <h3>
+            <span>1/4</span><span class="grupo_texto"><span>POLLO</span><span>BRASA</span> </span>
+          </h3>
           <p>
             Dos 1/4 de pollo a la BRASA acompañado con dos guarniciones a
             eleccion disponibles.
           </p>
-          <button class="button">PEDIR</button>
+          <a href="https://wa.me/59167344906
+            "  target="_blank" class="button menu-button">PEDIR POR <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2044_485)">
+<path d="M19.0384 3.59678C16.9808 1.53428 14.2406 0.399902 11.3286 0.399902C5.31787 0.399902 0.4268 5.29097 0.4268 11.3017C0.4268 13.2218 0.927693 15.0977 1.88037 16.7526L0.333496 22.3999L6.11341 20.8825C7.70448 21.7517 9.49689 22.2084 11.3237 22.2084H11.3286C17.3344 22.2084 22.3335 17.3173 22.3335 11.3066C22.3335 8.39455 21.096 5.65928 19.0384 3.59678ZM11.3286 20.3718C9.69823 20.3718 8.10225 19.9347 6.71251 19.1097L6.3835 18.9133L2.95582 19.812L3.86921 16.4678L3.65314 16.124C2.74466 14.6803 2.26832 13.0155 2.26832 11.3017C2.26832 6.30749 6.33439 2.24142 11.3335 2.24142C13.7545 2.24142 16.0281 3.18428 17.7371 4.89812C19.446 6.61196 20.4969 8.88562 20.492 11.3066C20.492 16.3057 16.3228 20.3718 11.3286 20.3718ZM16.2982 13.5852C16.0281 13.4477 14.6875 12.7896 14.4371 12.7012C14.1866 12.6079 14.0049 12.5637 13.8232 12.8387C13.6415 13.1137 13.121 13.7227 12.9589 13.9093C12.8018 14.091 12.6397 14.1155 12.3697 13.978C10.7688 13.1776 9.71787 12.549 8.66207 10.737C8.38216 10.2557 8.94198 10.2901 9.46251 9.24901C9.55091 9.06731 9.50671 8.91017 9.43796 8.77267C9.36921 8.63517 8.82412 7.29455 8.59823 6.74946C8.37725 6.2191 8.15135 6.29276 7.98439 6.28294C7.82725 6.27312 7.64555 6.27312 7.46385 6.27312C7.28216 6.27312 6.98751 6.34187 6.73707 6.61196C6.48662 6.88696 5.78439 7.54499 5.78439 8.88562C5.78439 10.2262 6.76162 11.5227 6.89421 11.7044C7.03171 11.8861 8.8143 14.6361 11.5496 15.8195C13.2781 16.566 13.9558 16.6298 14.8201 16.5021C15.3455 16.4236 16.4308 15.8441 16.6567 15.2057C16.8826 14.5673 16.8826 14.0222 16.8139 13.9093C16.75 13.7865 16.5683 13.7178 16.2982 13.5852Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2044_485">
+<rect width="22" height="22" fill="white" transform="translate(0.333496 0.399902)"/>
+</clipPath>
+</defs>
+</svg></a>
         </div>
         <div class="img-promos">
-          <img src="logos/2x1.svg" alt="" />
-          <img src="image/pierna-pollo.png" alt="1/4 de pollo" />
-          <img src="image/pierna-pollo.png" alt="1/4 de pollo" />
+          <img src="logos/2x1.webp" alt="" />
+          <img src="image/platos/pierna-pollo.webp" alt="1/4 de pollo" />
+          <img src="image/platos/pierna-pollo.webp" alt="1/4 de pollo" />
         </div>
       </section>
       <section class="contenido__promos">
         <div class="img-promos promos-2">
-          <img src="logos/2x1.svg" alt="2x1" class="dosx1" />
+          <img src="logos/2x1.webp" alt="2x1" class="dosx1" />
           <img
-            src="image/entrepierna-pollo.png"
+            src="image/platos/entrepierna-pollo.webp"
             alt="Pierna de Pollo "
             class="pollo"
           />
           <img
-            src="image/entrepierna-pollo.png"
+            src="image/platos/entrepierna-pollo.webp"
             alt="Pierna de Pollo "
             class="pollo"
           />
         </div>
         <div class="text-promos">
-          <h3><span>1/8</span><span>POLLO</span><span>BRASA</span></h3>
+          <h3><span>1/8</span><span class="grupo_texto"><span>POLLO</span><span>BRASA</span></span></h3>
           <p>
             Dos 1/4 de pollo a la BRASA acompañado con dos guarniciones a
             eleccion disponibles.
           </p>
-          <button class="button">PEDIR</button>
+          <a href="https://wa.me/59167344906
+            " target="_blank" class="button menu-button">PEDIR POR<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2044_485)">
+<path d="M19.0384 3.59678C16.9808 1.53428 14.2406 0.399902 11.3286 0.399902C5.31787 0.399902 0.4268 5.29097 0.4268 11.3017C0.4268 13.2218 0.927693 15.0977 1.88037 16.7526L0.333496 22.3999L6.11341 20.8825C7.70448 21.7517 9.49689 22.2084 11.3237 22.2084H11.3286C17.3344 22.2084 22.3335 17.3173 22.3335 11.3066C22.3335 8.39455 21.096 5.65928 19.0384 3.59678ZM11.3286 20.3718C9.69823 20.3718 8.10225 19.9347 6.71251 19.1097L6.3835 18.9133L2.95582 19.812L3.86921 16.4678L3.65314 16.124C2.74466 14.6803 2.26832 13.0155 2.26832 11.3017C2.26832 6.30749 6.33439 2.24142 11.3335 2.24142C13.7545 2.24142 16.0281 3.18428 17.7371 4.89812C19.446 6.61196 20.4969 8.88562 20.492 11.3066C20.492 16.3057 16.3228 20.3718 11.3286 20.3718ZM16.2982 13.5852C16.0281 13.4477 14.6875 12.7896 14.4371 12.7012C14.1866 12.6079 14.0049 12.5637 13.8232 12.8387C13.6415 13.1137 13.121 13.7227 12.9589 13.9093C12.8018 14.091 12.6397 14.1155 12.3697 13.978C10.7688 13.1776 9.71787 12.549 8.66207 10.737C8.38216 10.2557 8.94198 10.2901 9.46251 9.24901C9.55091 9.06731 9.50671 8.91017 9.43796 8.77267C9.36921 8.63517 8.82412 7.29455 8.59823 6.74946C8.37725 6.2191 8.15135 6.29276 7.98439 6.28294C7.82725 6.27312 7.64555 6.27312 7.46385 6.27312C7.28216 6.27312 6.98751 6.34187 6.73707 6.61196C6.48662 6.88696 5.78439 7.54499 5.78439 8.88562C5.78439 10.2262 6.76162 11.5227 6.89421 11.7044C7.03171 11.8861 8.8143 14.6361 11.5496 15.8195C13.2781 16.566 13.9558 16.6298 14.8201 16.5021C15.3455 16.4236 16.4308 15.8441 16.6567 15.2057C16.8826 14.5673 16.8826 14.0222 16.8139 13.9093C16.75 13.7865 16.5683 13.7178 16.2982 13.5852Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2044_485">
+<rect width="22" height="22" fill="white" transform="translate(0.333496 0.399902)"/>
+</clipPath>
+</defs>
+</svg></a>
         </div>
       </section>
     </main>
 
-   
-  <footer class="footer">
-    <section class="menu-footer">
-      <ul>
-        <li><a href="./menu.html">MENU</a></li>
-        <li><a href="./promociones.html">PROMOCIONES</a></li>
-        <li><a href="./resevas.html">RESERVAS</a></li>
-        <li><a href="./contacto.html">CONTACTO</a></li>
-      </ul>
-    </section>
-    <section class="redes">
-      <div>
-        <img src="logos/fb.png" alt="Logo Faccebok" />
-      </div>
-      <div>
-        <img src="logos/in.png" alt="Instagram" class="instagram" />
-      </div>
-      <div><img src="logos/wp.png" alt="Whatsapp" /></div>
+    <footer class="footer">
+      <section class="menu-footer">
+        <ul>
+          <li><a href="./menu.html">MENU</a></li>
+          <li><a href="./promociones.html">PROMOCIONES</a></li>
+          <li><a href="./resevas.html">RESERVAS</a></li>
+          <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+      </section>
+      <section class="redes">
+        <div>
+          <img src="logos/fb.webp" alt="Logo Faccebok" />
+        </div>
+        <div>
+          <img src="logos/in.webp" alt="Instagram" class="instagram" />
+        </div>
+        <div><img src="logos/wp.webp" alt="Whatsapp" /></div>
 
-      <a href="./index.html"> <img src="logos/logo.png" alt="logo" /></a>
+        <a href="./index.html"> <img src="logos/logo.webp" alt="logo" /></a>
 
-      <div><img src="logos/yt.png" alt="Youtube" /></div>
-    </section>
-    <section class="horarios">
-      <h3>HORARIO DE ATENCION</h3>
-      <h3>11:00 AM - 17:00 PM</h3>
-      <h3>DE JUEVES A DOMINGO</h3>
-    </section>
-    <h5>DERECHOS RESERVADOS PARA LEÑA Y BRASAS DE MI TIERRA</h5>
-  </footer>
+        <div><img src="logos/yt.webp" alt="Youtube" /></div>
+      </section>
+      <section class="horarios">
+        <h3>HORARIO DE ATENCION</h3>
+        <h3>11:00 AM - 17:00 PM</h3>
+        <h3>DE JUEVES A DOMINGO</h3>
+      </section>
+      <h5>DERECHOS RESERVADOS PARA LEÑA Y BRASAS DE MI TIERRA</h5>
+    </footer>
     <script src="script/script.js"></script>
-
   </body>
 </html>

@@ -20,10 +20,10 @@
   transform: rotate(-90deg);
   width: 80px;
 }
-.titulo__header h3{
+.titulo__header h1{
   margin-top: -10px;
   text-align: center;
-  font-size: 6rem;
+  font-size: 4rem;
   font-family: Katler-Regular;
   color: var(--color-button);
   letter-spacing: 5px;
@@ -43,13 +43,13 @@
   border-radius: 100px;
 }
 .titulo__reserva{
+
   text-align: center;
   font-size: 3rem;
   letter-spacing: 3px;
   color: var(--color-button);
   color: #fefefe;
   font-family: Katler-Regular;
-
   margin-bottom: 20px;
 
 }
@@ -59,13 +59,16 @@
   margin-top: -12px;
 } 
 .titulo__reserva img{
-margin-left: -188px;
 transform: rotate(-90deg);
 
 }
 .titulo__reserva h3{
   margin-top: -20px;
   color: var(--color-button);
+}.titulo__reserva p{
+  padding:7px 80px;
+  font-size: .7rem;
+  margin-top: -10px;
 }
 
 .form-form{
@@ -177,7 +180,7 @@ color: #fefefe;
   margin-top: 50%;
 }
 .titulo__reserva h3{
-font-size: 2rem;
+font-size: 3.2rem;
 
 }
 .titulo__reserva span{
@@ -186,7 +189,6 @@ margin-top: -5px;
 }
 .titulo__reserva img{
   width: 40px;
-  margin-left: -120px;
   margin-bottom: 5px;
 }
 .form-form{
