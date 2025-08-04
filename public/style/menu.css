@@ -458,7 +458,7 @@ svg:hover {
 /*----------slider-bebidas------*/
 
 .container__bebidas {
-  width: clamp(400px, 100%, 1300px);
+  width: clamp(300px, 100%, 1300px);
   margin: auto;
   margin-bottom: -150px;
   position: relative;
@@ -468,11 +468,9 @@ svg:hover {
   text-align: center;
   font-size: 3rem;
   letter-spacing: 3px;
-  color: var(--color-button);
   color: #fefefe;
   font-family: Katler-Regular;
-
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .titulo__bebidas img {
@@ -485,10 +483,8 @@ svg:hover {
 }
 .slider-bebidas {
   margin: auto;
-  width: 672px;
   display: flex;
   justify-content: center;
-  overflow: hidden;
 }
 .izquierda,
 .derecha {
@@ -519,12 +515,11 @@ svg:hover {
 }
 
 .bebidas {
-  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 50px 120px 50px;
+  padding: 50px 20px 120px 20px;
   border: 2px solid #e7e4e4;
   border-radius: 130px 130px 0 0;
 }
