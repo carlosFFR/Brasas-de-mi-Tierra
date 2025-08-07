@@ -42,11 +42,11 @@
 .header__main-img-1 {
   left: 0;
   top: -3%;
-  width: 350px;
+  width: 25%;
   animation: fadeInLeft 0.8s ease-out both;
 }
 .header__main-img-2 {
-  width: 350px;
+  width: 25%;
   left: 8%;
   bottom: 17%;
   animation: fadeInLeft 0.8s ease-out both;
@@ -54,17 +54,17 @@
 }
 .header__main-img-3 {
   bottom: 17%;
-  width: 350px;
-  animation: fadeBottom 0.8s ease-out both;
+  width: 25%;
+    animation: fadeBottom 0.8s ease-out both;
 }
 .header__main-img-4 {
-  width: 400px;
+  width: 25%;
   right: 0;
   top: -3%;
   animation: fadeInRightPlanchita 0.8s ease-out both;
 }
 .header__main-img-5 {
-  width: 350px;
+  width: 25%;
   right: 5%;
   bottom: 17%;
   animation: fadeInRight 0.8s ease-out both;
@@ -114,12 +114,12 @@
 /* --- fin de las imagenes del header */
 /*--------FRASE----------*/
 .frase {
-  margin-bottom: 55px;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 120px;
+
 }
 .frase img {
   width: clamp(350px, 50%, 500px);
@@ -127,11 +127,11 @@
 .frase h2 {
   font-family: KumbhSans-Regular;
   font-weight: 300;
-  width: clamp(300px, 50%, 400px);
+  width: clamp(300px, 50%, 500px);
   display: inline;
   text-align: center;
   color: #e7e4e4;
-  font-size: clamp(2rem, 2.5vw, 3.5rem);
+  font-size: clamp(2.2rem, 2.8vw, 4rem);
   margin-bottom: 50px;
 }
 
