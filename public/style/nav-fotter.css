@@ -178,7 +178,6 @@ body {
 .button::after {
   content: "";
   position: absolute;
-  left: 0;
   bottom: -50px;
   left:30px;
   right: 30px;
@@ -207,9 +206,6 @@ body {
   border-color: #e68c07;
 }
 
-input[type="radio"]{
-  
-}
 /*-------------fin botones-----------*/
 /*------------footer----------------*/
 

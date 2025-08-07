@@ -11,8 +11,8 @@
 .menu-button svg {
   width: 20px;
 }
-.menu-button:hover path  {
-  fill:#121111;
+.menu-button:hover path {
+  fill: #121111;
   border-radius: 5px;
 }
 .header .img-1,
@@ -37,7 +37,6 @@
 /*--------MENUU-----------*/
 
 .container__menu {
-  width: clamp(300px, 100%, 1300px);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -57,7 +56,7 @@
 }
 .tituto_menu h2 {
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 4rem;
   color: #000;
   letter-spacing: 1.5px;
   margin: 0px 5px;
@@ -66,17 +65,19 @@
 .tituto_menu span {
   display: block;
   letter-spacing: 3px;
-  font-size: 2.9rem;
+  font-size: 4rem;
   margin-top: -10px;
 }
 .tituto_menu img:first-child {
   transform: rotate(180deg);
 }
-
+.tituto_menu img {
+  width: 100px;
+}
 
 .aside__menu {
   margin: 50px auto;
-  width: clamp(250px, 70%, 800px);
+  width: clamp(250px, 70%, 1200px);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -86,13 +87,13 @@
 
 .aside__menu img {
   width: 340px;
-  margin-right: -80px;
+  margin-right: -10px;
   z-index: 1;
   position: relative;
   z-index: 20;
 }
 .aside__menu img:nth-child(2n) {
-  margin-left: -80px;
+  margin-left: -10px;
 }
 
 .aside__menu .aside__menu-text:nth-child(1) {
@@ -118,7 +119,7 @@
   width: 250px;
   font-family: KumbhSans-Regular;
   font-size: 0.8rem;
-  text-align: center;
+  text-align: start;
   font-weight: 100;
   margin-top: 12px;
   letter-spacing: 1px;
@@ -127,12 +128,20 @@
 }
 .menu__botones {
   display: flex;
-
   align-items: center;
   justify-content: start;
-  gap: 100px;
+  align-items: center;
+  gap: 10px;
 }
-
+.plato-1 {
+  margin-top: 160px;
+}
+.plato-1 p {
+  color: #e7e4e4;
+}
+.plato-1 .aside__menu-text h3 {
+  color: #e7e4e4;
+}
 .menu__botones .menu-button img {
   width: 20px;
 }
@@ -142,7 +151,7 @@
 }
 
 .menu__botones img {
-  width: 200px;
+  width: 100px;
 }
 
 .plato-2 span:nth-child(1) {
@@ -179,11 +188,73 @@
 }
 
 /*cortes de pollo----------*/
+.fondo-hojas {
+  object-fit: cover;
+  object-position: bottom;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+}
+.vector-1,
+.vector-2,
+.vector-3 {
+  position: absolute;
+  width: 60%;
+  z-index: -1;
+}
+.vector-1 {
+  width: 55%;
+  right: 0;
+  top: 36%;
+}
+.vector-2 {
+  width: 0%;
+  left: -10%;
+  top: 48%;
+}
+.vector-3 {
+  display: none;
+}
 
+.vector-4 {
+  display: block;
+  position: absolute;
+  width: 50%;
+  top: 0%;
+  right: 0%;
+  z-index: -1;
+  display: none;
+}
+.vector-5 {
+  display: block;
+  position: absolute;
+  width: 70%;
+  top: 0%;
+  right: 0%;
+  z-index: -1;
+}
+.hoja-1 {
+  position: absolute;
+  left: -130px;
+  top: 79%;
+  transform: rotate(70deg);
+  width: 230px;
+  z-index: 5;
+}
+.hoja-2 {
+  position: absolute;
+  right: -120px;
+  top: 50%;
+  transform: rotate(-130deg);
+  width: 230px;
+  z-index: 5;
+}
 .tituto_menu h3 {
   text-align: center;
   font-size: 2.8rem;
-  color: #fff;
+  color: #e7e4e4;
   letter-spacing: 2.3px;
   margin: 0px 5px;
   margin-top: 11px;
@@ -194,7 +265,7 @@
   font-size: 1.6rem;
   margin-top: -10px;
 }
-.container__img{
+.container__img {
   margin-top: 4px;
   width: 100%;
   display: flex;
@@ -202,36 +273,35 @@
   align-items: center;
   position: relative;
 }
-.container__img .pollo{
-width:250px;
+.container__img .pollo {
+  width: 250px;
 }
-.container__img .hoja2{
- position:absolute; 
- width:100px;
- top:0;
- right:40px;
- z-index:-1;
+.container__img .hoja2 {
+  position: absolute;
+  width: 100px;
+  top: 0;
+  right: 40px;
+  z-index: -1;
 }
 .conainer__cortes {
-  width: clamp(300px, 100%, 1300px);
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position:relative;
+  position: relative;
   overflow: hidden;
 }
-.conainer__cortes .vector-3{
-top:25%;
-z-index:-1;
+.conainer__cortes .vector-3 {
+  top: 25%;
+  z-index: -1;
 }
-.conainer__cortes .vector-1{
-top:85%;
-z-index:-1;
+.conainer__cortes .vector-1 {
+  top: 85%;
+  z-index: -1;
 }
 .titulo__cortes {
-  margin-top:35px;
+  margin-top: 35px;
   font-family: Katler-Regular;
 }
 .titulo__cortes h3 {
@@ -321,7 +391,11 @@ z-index:-1;
   width: 200px;
   margin-top: 0px;
 }
-
+.conainer__cortes .vector-1 {
+  top: 60%;
+  z-index: -1;
+  width: 38%;
+}
 /*---fin----cortes de pollo----------*/
 
 /*----------Guarnicionesss--------*/
@@ -480,6 +554,7 @@ svg:hover {
 }
 .titulo__bebidas h3 {
   margin-top: -20px;
+  color: #fefefe;
 }
 .slider-bebidas {
   margin: auto;
@@ -544,11 +619,112 @@ svg:hover {
   font-size: 1.3rem;
 }
 
-
 /*----------fin-----slider-bebidas------*/
+@media (min-width: 600px) and (max-width: 900px) {
+  .header {
+    background-image: url("../image/hero/hero-menu-tablet.webp");
+  }
+  .conainer__cortes {
+    position: relative;
+  }
+  .conainer__cortes .vector-3 {
+    width: 35%;
+    top: 60%;
+    z-index: -1;
+  }
+  .conainer__cortes .vector-1 {
+    top: 70%;
+    z-index: -1;
+    width: 45%;
+  }
+  .cortes_contenido img {
+    width: 100px;
+  }
+  .fondo-hojas {
+    object-fit: cover;
+    object-position: bottom;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+  }
+  .plato-1 {
+    margin-top: 60px;
+  }
+  .vector-1,
+  .vector-2,
+  .vector-3 {
+    position: absolute;
+    width: 60%;
+    z-index: -1;
+  }
+  .vector-1 {
+    width: 70%;
+    right: 0;
+    top: 33%;
+  }
+  .vector-2 {
+    width: 80%;
+    left: -10%;
+    top: 48%;
+  }
+  .vector-3 {
+    display: none;
+  }
 
+  .vector-4 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: -11%;
+    right: 0;
+    z-index: -1;
+  }
+  .hoja-1 {
+    position: absolute;
+    left: -130px;
+    top: 79%;
+    transform: rotate(70deg);
+    width: 230px;
+    z-index: 5;
+  }
+  .hoja-2 {
+    position: absolute;
+    right: -120px;
+    top: 50%;
+    transform: rotate(-130deg);
+    width: 230px;
+    z-index: 5;
+  }
+  .aside__menu .plato {
+    width: 300px;
+  }
+  .corte .pollo {
+    width: 350px;
+  }
+  .corte {
+    width: 400px;
+  }
+}
 /*section---responsive*/
 @media only screen and (max-width: 600px) {
+  .cortes_contenido img {
+    width: 100px;
+  }
+  .tituto_menu h2 {
+    font-size: 2.8rem;
+  }
+  .tituto_menu span {
+    font-size: 2.9rem;
+  }
+
+  .tituto_menu img {
+    width: 70px;
+  }
+  .plato-1 {
+    margin-top: 20px;
+  }
   .header {
     width: 100%;
     height: 100vh;
@@ -576,10 +752,10 @@ svg:hover {
     z-index: -1;
   }
   .vector-1 {
-    width:100%;
-    height:350px;
+    width: 100%;
+    height: 350px;
     right: -55px;
-    top: 16.5%;
+    top: 16%;
   }
   .vector-2 {
     width: 100%;
@@ -588,6 +764,7 @@ svg:hover {
     top: 38%;
   }
   .vector-3 {
+    display: block;
     width: 83%;
     left: 0;
     top: 63%;
@@ -633,6 +810,25 @@ svg:hover {
   .menu__botones .menu-button {
     padding: 8px 20px;
   }
+  .plato-1 .aside__menu-text p,
+  h3 {
+    color: #100;
+  }
+  .plato-1 .aside__menu-text h3 {
+    color: #100;
+  }
+  .plato-1 .plato {
+    order: 1;
+  }
+  .plato-1 .aside__menu-text {
+    order: 2;
+  }
+  .plato-3 .plato {
+    order: 1;
+  }
+  .plato-3 .aside__menu-text {
+    order: 2;
+  }
   .plato-2 .aside__menu-text {
     order: 2;
     text-align: center;
@@ -648,7 +844,7 @@ svg:hover {
     margin-left: 0;
   }
   .menu__botones img {
-    width: 200px;
+    width: 100px;
   }
 
   .corte .pollo {
@@ -656,6 +852,7 @@ svg:hover {
   }
   .cortes_contenido p {
     font-size: 0.7rem;
+    font-weight: 200;
   }
   .cortes_contenido {
     width: 250px;
@@ -667,10 +864,10 @@ svg:hover {
     top: 65%;
   }
   .arrow-izquierda {
-    left: 1;
+    left: 15px;
   }
   .arrow-derecha {
-    right: 1;
+    right: 15px;
   }
 
   .titulo h3,
@@ -724,9 +921,9 @@ svg:hover {
   .descripcion-bebida span:nth-child(2) {
     font-size: 1.3rem;
   }
-.descripcion-bebida .menu-button{
-  padding: 8px 20px;
-}
+  .descripcion-bebida .menu-button {
+    padding: 8px 20px;
+  }
   .container__bebidas-slider {
     width: 55%;
     margin: auto;
@@ -739,5 +936,8 @@ svg:hover {
   .izquierda,
   .derecha {
     width: 40px;
+  }
+  .corte { 
+    width: 400px;
   }
 }
