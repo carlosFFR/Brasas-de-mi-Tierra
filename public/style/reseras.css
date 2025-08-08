@@ -64,7 +64,7 @@ transform: rotate(-90deg);
 }
 .titulo__reserva h3{
   color: #100;
-margin-top: -26px;
+margin-top: -18px;
 }.titulo__reserva p{
   width: 400px;
   margin: 0 auto;
@@ -210,13 +210,16 @@ color: #fefefe;
   margin-top: -8px;
 }
 .titulo__header{
-  margin-top: 50%;
+  margin-top: 25%;
 }
 .titulo__reserva h3{
-font-size: 2.5rem;
+font-size: 2.2rem;
 margin-bottom: -10px;
 }
 .titulo__reserva p{
+  width: 360px;
+  padding: 7px 55px;
+  text-align: center;
   font-size: .8rem;
   color: #100;
   letter-spacing: 1px;
@@ -226,11 +229,11 @@ font-size: 1.8rem;
 margin-top: -5px;
 }
 .titulo__reserva img{
-  width: 40px;
-  margin-bottom: 5px;
+  width: 30px;
+  margin-bottom:1px;
 }
 .container__reserva .vector-6{
-width: 90%;
+width: 100%;
  position: absolute;
 top: 0px;
 z-index: -1;

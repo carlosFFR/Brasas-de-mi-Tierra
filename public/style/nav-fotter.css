@@ -288,6 +288,7 @@ body {
 .horarios h3:nth-child(2) {
   color: var(--color-button);
 }
+.footer h3 {color: #e7e4e4;}
 .footer h5 {
   color: #e7e4e4;
   z-index: 20;
