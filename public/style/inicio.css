@@ -46,17 +46,17 @@
   animation: fadeInLeft 0.8s ease-out both;
 }
 .header__main-img-2 {
-  width: 25%;
-  left: 10%;
-  bottom: 15%;
+  width: 26%;
+  left: 13%;
+  bottom: 10%;
   animation: fadeInLeft 0.8s ease-out both;
   z-index: 10;
 }
 .header__main-img-3 {
   width: 25%;
-  bottom: 17%;
+  bottom: 14%;
   animation: fadeInRight 0.8s ease-out both;
-  right:10%;
+  right:13%;
 
 }
 .header__main-img-4 {
