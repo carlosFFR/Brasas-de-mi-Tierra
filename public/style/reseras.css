@@ -89,10 +89,10 @@ max-width: 580px;
  transform: translateX(-50%)
 }
 .vector-1{
-  display: none;
-  width: 70%;
+
+width: 70%;
  position: absolute;
- top: 70%;
+ top: 0%;
  z-index: -1;
  right: 0;
 }
@@ -117,10 +117,10 @@ max-width: 580px;
 }
 .form-form div input,textarea
 {
-  border: 1px solid transparent;
+  border: 1px solid white;
   width: 100%;
   border-radius: 20px;
-  background-color: #ffffff5b;
+  background-color: #46454450;
   backdrop-filter: blur(10px);
   color: #fefefe;
   padding: 10px 12px;
@@ -130,14 +130,18 @@ max-width: 580px;
   resize: none;
   height: 70px;
   font-family: KumbhSans-Regular;
+  border-radius: 33px;
+  padding-top: 12px;
+  padding-left: 15px;
 }
 .form-form div input::placeholder,textarea::placeholder{
   color: #fefefe;
   font-family: KumbhSans-Regular;
   font-size: .7rem;
 }
-.form-form div input:hover,textarea:hover{
-  border: 1px solid #fefefe;
+.form-form div input:focus,textarea:focus{
+  outline: 1px solid var(--color-button);
+  border: 1px solid var(--color-button);
 }
 .form-form .button {
   border: 1px solid #fefefe;
@@ -189,10 +193,21 @@ color: #fefefe;
 }
 .especial-contenido a{
   padding: 8px 20px;
+  max-width: min-content;
 }
+.especial-img img{
+  width: 240px;
+  border-radius: 20px;
+}
+.calendario{
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   
-
+.calendario{
+  display: block;
+}
 
 .titulo__header img{
   width: 50px;
@@ -241,9 +256,10 @@ left: 50%;
 transform: translateX(-50%)
   }
   .vector-1{
-   width: 70%;
+   width: 50%;
    position: absolute;
-   top: 70%;
+   top: 46%;
+   transform:rotate(360deg);
    z-index: -1;
    right: 0;
   }
@@ -274,7 +290,6 @@ transform: translateX(-50%)
   border: 1px solid #fefefe;
   width: 100%;
   border-radius: 20px;
-  background-color: transparent;
   backdrop-filter: blur(10px);
   color: #fefefe;
   outline: none;
@@ -283,7 +298,7 @@ transform: translateX(-50%)
   resize: none;
 }
 .form-form div input:hover,textarea:hover{
-  border: 1px solid #fefefe;
+  border: 1px solid var(--color-button);
 }
 
 .especial-img{

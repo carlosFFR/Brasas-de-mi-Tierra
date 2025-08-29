@@ -4,23 +4,23 @@ function moveSlide(direction) {
   const slides = document.querySelectorAll('.slider');
   const sliderWrapper = document.querySelector('.slider-wrapper');
 
-  // Actualizar el índice sin permitir que salga de los límites
-  if (direction === 1 && currentIndex < slides.length - 1) {
+  // ✅ Número de slides visibles según ancho de pantalla
+  let slidesToShow = window.innerWidth <= 600 ? 2 : 3;
+  let valor = 100 / slidesToShow;
+
+  // ✅ Lógica sin loop (evita espacios vacíos)
+  if (direction === 1 && currentIndex < slides.length - slidesToShow) {
     currentIndex += 1;
   } else if (direction === -1 && currentIndex > 0) {
     currentIndex -= 1;
   }
 
-  // Definir el valor según el ancho de la ventana
-  let valor;
-  if (window.innerWidth <= 600) {
-    valor = 50;
-  } else {
-    valor = 33;
-  }
-  // Aplicar la transformación para mover el slider
+  // ✅ Aplicar desplazamiento
   sliderWrapper.style.transform = `translateX(-${currentIndex * valor}%)`;
 }
+
+// ✅ Recalcular cuando la ventana cambie de tamaño
+window.addEventListener('resize', () => moveSlide(0));
 
 
 const menuIcon = document.getElementById('menu-movil');

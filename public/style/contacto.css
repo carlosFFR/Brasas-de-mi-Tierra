@@ -31,14 +31,18 @@
 .titulo__header p {
   width: 500px;
   max-width: 350px;
+  margin-left: 30px;
+
   text-transform: uppercase;
   text-wrap: pretty;
-  font-family: KumbhSans-Regular;
   font-size: .8em;
   color: #fefefe;
-  font-weight: 100;
-  letter-spacing: 2px;
+  font-weight: 200;
+  letter-spacing: 3px;
   margin-bottom: 10px;
+  text-align: start;
+  font-family: Katler-Regular;
+
 }
 .enlaces{
   margin: 0 auto;
@@ -183,11 +187,11 @@
 }
 .form-form div input,textarea
 {
-  border: 1px solid transparent;
+  border: 1px solid white;
   width: 90%;
-  padding: 8px;
+  padding: 12px 20px;
   border-radius: 20px;
-  background-color: #ffffff5b;
+  background-color: #46454450;
   backdrop-filter: blur(10px);
   color: #fefefe;
   outline: none;
@@ -195,6 +199,8 @@
 .form-form textarea{
   resize: none;
   height: 100px;
+  border-radius:33px;
+  font-family: KumbhSans-Regular;
 }
 .form-form div input:hover,textarea:hover{
   border: 1px solid #fefefe;
@@ -202,8 +208,18 @@
 .form-form .button {
   border: 1px solid #fefefe;
   color: #fefefe;
-  align-self: start;
+  align-self: center;
 }
+  .form-form div input::placeholder,textarea::placeholder{
+  color: #fefefe;
+  font-family: KumbhSans-Regular;
+  font-size: .7rem;
+}
+.form-form div input:focus,textarea:focus{
+  outline: 1px solid var(--color-button);
+  border: 1px solid var(--color-button);
+}
+
 
 @media only screen and (max-width: 600px) {
   
@@ -269,9 +285,9 @@
   {
     border: 1px solid #fefefe;
     width: 90%;
-    padding: 8px;
+    padding: 20px,20px;
     border-radius: 20px;
-    background-color: transparent;
+    background-color: #46454450;
     backdrop-filter: blur(10px);
     color: #fefefe;
     outline: none;
@@ -280,15 +296,15 @@
     resize: none;
     height: 70px;
   }
-  .form-form div input:hover,textarea:hover{
-    border: 1px solid #fefefe;
-  }
   .form-form .button {
     border: 1px solid #fefefe;
     color: #fefefe;
     margin-top: 5px;
-    align-self: start;
+    align-self: center;
+    letter-spacing: 2px;
+    padding: 13px 30px;
   }
+
   
 .titulo__header{
   backdrop-filter: blur(5px);
@@ -312,10 +328,11 @@
   letter-spacing: 5px;
 }
 .titulo__header p {
+  letter-spacing: 3px;
   width: 250px;
-  text-align: center;
   font-size: .6rem;
   margin: 0 auto;
+  margin-left: 30px;
   margin-bottom: 10px;
 
 }
