@@ -74,7 +74,7 @@ margin-top: -18px;
   font-size: .9rem;
 }
 .container__reserva{
-  width: clamp(350px,100%,1000px);
+  width: clamp(350px,100%,1400px);
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -90,12 +90,21 @@ max-width: 580px;
 }
 .vector-1{
 
-width: 70%;
+width: 40%;
  position: absolute;
- top: 0%;
+ top: 15%;
  z-index: -1;
  right: 0;
 }
+.vector-5{
+
+width: 50%;
+ position: absolute;
+ bottom: -130%;
+ z-index: -1;
+ left: 0;
+}
+
 .form-form{
   color: #fefefe;
   margin: auto; 
@@ -157,11 +166,12 @@ width: 70%;
 }
 .Container__especial{
   margin: auto;
-  width: clamp(350px,80%,1000px);
+  width: 100%;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: relative;
   justify-content: space-evenly;
 }
 .especial-contenido h3{
@@ -263,6 +273,15 @@ transform: translateX(-50%)
    z-index: -1;
    right: 0;
   }
+  .vector-5{
+
+width: 40%;
+ position: absolute;
+ bottom: -68%;
+ z-index: -1;
+ left: 0;
+}
+
 .form-form{
   color: #fefefe;
   margin-top: 50px;
@@ -307,12 +326,13 @@ transform: translateX(-50%)
 
 .Container__especial{
   margin: auto;
-  width: clamp(350px,80%,1000px);
+  width: 100%;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap ;
   align-items: center;
+  position: relative;
   justify-content: space-evenly;
 }
 .especial-contenido h3{
